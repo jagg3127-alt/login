@@ -133,7 +133,7 @@ class User extends Dbconfig {
 						$message = "Verification email send to your email address. Please check email and verify to complete registration.";
 					}
 				} else {
-					mysqli_error($this->dbConnect) 
+					mysqli_error($this->dbConnect);
 				}
 			}
 		}
